@@ -1,0 +1,175 @@
+{
+  "verified_at": "2026-11-16T04:17:32.310963+00:00",
+  "repository": "https://github.com/asder20051228/ai-pingpong-multiview",
+  "visibility": "public",
+  "release": "https://github.com/asder20051228/ai-pingpong-multiview/releases/tag/v2026.11.16",
+  "tag": "v2026.11.16",
+  "tag_commit": "f25ee9a9c457694c0399a71a97ee7f7d70df6754",
+  "published_at": "2026-11-16T04:17:11Z",
+  "asset_count": 21,
+  "total_bytes": 14729592485,
+  "all_github_sha256_digests_match_local_manifest": true,
+  "anonymous_release_access_verified": true,
+  "public_download_checks": [
+    {
+      "name": "docker-image.json",
+      "url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/docker-image.json",
+      "anonymous_download_sha256_verified": true
+    },
+    {
+      "name": "public-data.json",
+      "url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/public-data.json",
+      "anonymous_download_sha256_verified": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/SHA256SUMS.txt",
+      "anonymous_download_sha256_verified": true
+    },
+    {
+      "name": "technical-report.pdf",
+      "url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/technical-report.pdf",
+      "anonymous_download_sha256_verified": true
+    }
+  ],
+  "public_docker_range_checks": [
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part01",
+      "url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part01",
+      "anonymous_range_download_verified": true
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part14",
+      "url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part14",
+      "anonymous_range_download_verified": true
+    }
+  ],
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 2011,
+      "digest": "sha256:9986fceb5ee18b716ef9e29ab8326be7da8ae537d5ca007fa724c5cd479fd135",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/SHA256SUMS.txt"
+    },
+    {
+      "name": "docker-image.json",
+      "size": 4979,
+      "digest": "sha256:f01e2e368ce60fe5e794779ae04ab8f48f1bbda848565bfb315f4910ce2e1325",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/docker-image.json"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part01",
+      "size": 1073741824,
+      "digest": "sha256:812c8e2b55133d09ee821432ccb712e3ae9e798ee5de952ebbfaae4831b4110e",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part01"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part02",
+      "size": 1073741824,
+      "digest": "sha256:1ae2676e091997cca3b375e40cb22c9b652729b0a982cdae7d71ce44b7a0a3fa",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part02"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part03",
+      "size": 1073741824,
+      "digest": "sha256:37ea258a89936e606f851f9c76e7adacbbad7828ccb82c24352e4b40031a8fa3",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part03"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part04",
+      "size": 1073741824,
+      "digest": "sha256:e382e680d2481f32baf9daf9dc37a9e35ab105156fe25a387787bfdc435d5a60",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part04"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part05",
+      "size": 1073741824,
+      "digest": "sha256:7e3e94c69edb09c4eca0292884dd6aea755c9be3c0e4a002c61e3da4679e2032",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part05"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part06",
+      "size": 1073741824,
+      "digest": "sha256:207531a5d55dfe91b1806388c9950e43500de21ed720cf718b5710e1b827fc8d",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part06"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part07",
+      "size": 1073741824,
+      "digest": "sha256:f302c665a494925e8972bdb73b2bdba66e4cdc08a0e8c7f3b4c1d7fd131cd991",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part07"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part08",
+      "size": 1073741824,
+      "digest": "sha256:cc011cfde13404b81471db8223c09820a3a9f3fa824a065b92ca5d0a17df50d1",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part08"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part09",
+      "size": 1073741824,
+      "digest": "sha256:a8fba71f3550122b74b559a475093c943376bcbd26268879feef1405045dadf6",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part09"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part10",
+      "size": 1073741824,
+      "digest": "sha256:211d7fb8f89ea61f94e04fa661cfa348a8e9c38c74cae39a65cbd85a4fe85bfe",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part10"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part11",
+      "size": 1073741824,
+      "digest": "sha256:2a3af330ba86a9048b82d8e2cbe8bd7073beb83ee2c37a2816d50e695e608311",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part11"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part12",
+      "size": 1073741824,
+      "digest": "sha256:819ba90020ecf678dac733748561b06cd435084f98bc1ece7712d41b6a681573",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part12"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part13",
+      "size": 1073741824,
+      "digest": "sha256:c611cf4eabf58aa4f2329f45d425323635331231dc29e0aa4c8aac791b075970",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part13"
+    },
+    {
+      "name": "pingpang-submit_20261115.tar.gz.part14",
+      "size": 541033148,
+      "digest": "sha256:133fe41e709ecdd291e12e7cb6133f0f3a447499353cf38af48ac6d19e5fb92f",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/pingpang-submit_20261115.tar.gz.part14"
+    },
+    {
+      "name": "public-data.json",
+      "size": 289,
+      "digest": "sha256:62b624a792ed2356db31ac86338d9ebdd733e4c71bba01b29923b268e65725dc",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/public-data.json"
+    },
+    {
+      "name": "public-validation-data.zip",
+      "size": 229304000,
+      "digest": "sha256:2e244cc8e2b788974146800c2cd9df732d5e75b7ef3ee069c4e1bb00b21c6379",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/public-validation-data.zip"
+    },
+    {
+      "name": "technical-report.docx",
+      "size": 48349,
+      "digest": "sha256:1f5c0c41af1f79b6558f2ad64e02428f00ef76f22467bd4109c442974c8d9954",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/technical-report.docx"
+    },
+    {
+      "name": "technical-report.md",
+      "size": 17352,
+      "digest": "sha256:ee5c1f21edaca532f16d70e1aa28b15435138a4580078faae4954f5e16fb5f8f",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/technical-report.md"
+    },
+    {
+      "name": "technical-report.pdf",
+      "size": 538645,
+      "digest": "sha256:415edebb207902facc96c23eb3f7653ce76ed8e6ec29590fde53a559562190eb",
+      "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/technical-report.pdf"
+    }
+  ]
+}
