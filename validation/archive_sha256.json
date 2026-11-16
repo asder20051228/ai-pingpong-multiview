@@ -1,0 +1,10 @@
+{
+  "file": "pingpang-submit_20261115.tar.gz",
+  "image": "pingpang-submit:20261115",
+  "bytes": 14499676860,
+  "payload_bytes": 24067127568,
+  "sha256": "f6fd04893d10c5a8394597ac3e2acf7de01d2738ea6909eb06b3102b801cf5aa",
+  "gzip_workers": 6,
+  "method": "Docker save staging directory packed as standard tar with concatenated gzip members; image blobs unchanged",
+  "elapsed_sec": 192.62
+}

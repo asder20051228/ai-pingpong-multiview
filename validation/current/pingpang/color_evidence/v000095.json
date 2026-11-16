@@ -1,0 +1,162 @@
+[
+  {
+    "hit": {
+      "frame_id": 6,
+      "x": 1081.2812281211045,
+      "y": 690.0560313177713
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 16,
+      "x": 867.5437564664729,
+      "y": 683.8062275213085
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 32,
+      "x": 1039.7273026315788,
+      "y": 667.7934210526316
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 49,
+      "x": 768.1799840640706,
+      "y": 632.4846259142729
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 64,
+      "x": 1165.8148373791216,
+      "y": 675.4144959484711
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 74,
+      "x": 783.1942656234525,
+      "y": 666.071729226503
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 84,
+      "x": 1107.949422420583,
+      "y": 621.8140325544763
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 107,
+      "x": 1115.5230536983067,
+      "y": 664.7792492904356
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 118,
+      "x": 862.9313998546863,
+      "y": 631.3582876156981
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 131,
+      "x": 1099.1964285714284,
+      "y": 691.9834101382489
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 141,
+      "x": 866.0114962638554,
+      "y": 673.5628541436214
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 155,
+      "x": 1092.029598519983,
+      "y": 645.0143113123883
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 170,
+      "x": 740.0723034821674,
+      "y": 636.7419800476662
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 178,
+      "x": 1130.680900028526,
+      "y": 627.8826508977928
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 197,
+      "x": 974.5745810413201,
+      "y": 712.0722783676601
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  },
+  {
+    "hit": {
+      "frame_id": 95,
+      "x": 825.0449355350862,
+      "y": 677.768193203126
+    },
+    "veto": false,
+    "reason": "uncertain_template",
+    "support": []
+  }
+]

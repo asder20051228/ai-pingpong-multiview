@@ -1,0 +1,176 @@
+[
+  {
+    "hit": {
+      "frame_id": 13,
+      "x": 1094.9934042212983,
+      "y": 496.8891909178126
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 12,
+        "fraction": 0.9090909090909091,
+        "hue": 97,
+        "dominance": 0.7870216306156406
+      },
+      {
+        "frame": 13,
+        "fraction": 0.9090909090909091,
+        "hue": 97,
+        "dominance": 0.7872
+      },
+      {
+        "frame": 14,
+        "fraction": 0.9090909090909091,
+        "hue": 97,
+        "dominance": 0.8008915304606241
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 37,
+      "x": 1137.7097243709795,
+      "y": 504.8359254132399
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 36,
+        "fraction": 0.9421487603305785,
+        "hue": 97,
+        "dominance": 0.8500669344042838
+      },
+      {
+        "frame": 37,
+        "fraction": 0.9421487603305785,
+        "hue": 97,
+        "dominance": 0.8150134048257373
+      },
+      {
+        "frame": 38,
+        "fraction": 0.9256198347107438,
+        "hue": 97,
+        "dominance": 0.8191489361702128
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 50,
+      "x": 787.8236612493408,
+      "y": 569.3815619157199
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 49,
+        "fraction": 0.4462809917355372,
+        "hue": 97,
+        "dominance": 0.865533230293663
+      },
+      {
+        "frame": 50,
+        "fraction": 0.4380165289256198,
+        "hue": 97,
+        "dominance": 0.832579185520362
+      },
+      {
+        "frame": 51,
+        "fraction": 0.47107438016528924,
+        "hue": 102,
+        "dominance": 0.8245083207261724
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 64,
+      "x": 1361.2707967328315,
+      "y": 488.3653997430317
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 63,
+        "fraction": 0.36363636363636365,
+        "hue": 97,
+        "dominance": 0.9476082004555809
+      },
+      {
+        "frame": 64,
+        "fraction": 0.371900826446281,
+        "hue": 97,
+        "dominance": 0.9646643109540636
+      },
+      {
+        "frame": 65,
+        "fraction": 0.36363636363636365,
+        "hue": 97,
+        "dominance": 0.964622641509434
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 74,
+      "x": 1092.6750149870113,
+      "y": 604.2229401185639
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 73,
+        "fraction": 0.9669421487603306,
+        "hue": 97,
+        "dominance": 0.9762202753441802
+      },
+      {
+        "frame": 74,
+        "fraction": 0.9669421487603306,
+        "hue": 97,
+        "dominance": 0.9844357976653697
+      },
+      {
+        "frame": 75,
+        "fraction": 0.9669421487603306,
+        "hue": 97,
+        "dominance": 0.9844357976653697
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 83,
+      "x": 1166.3435578590572,
+      "y": 466.84913487308836
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 82,
+        "fraction": 0.49586776859504134,
+        "hue": 97,
+        "dominance": 0.994413407821229
+      },
+      {
+        "frame": 83,
+        "fraction": 0.49586776859504134,
+        "hue": 97,
+        "dominance": 0.9932432432432432
+      },
+      {
+        "frame": 84,
+        "fraction": 0.5041322314049587,
+        "hue": 97,
+        "dominance": 0.9932432432432432
+      }
+    ]
+  }
+]

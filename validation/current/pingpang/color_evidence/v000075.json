@@ -1,0 +1,118 @@
+[
+  {
+    "hit": {
+      "frame_id": 7,
+      "x": 1153.7236280196316,
+      "y": 459.9693256421697
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 6,
+        "fraction": 0.9586776859504132,
+        "hue": 107,
+        "dominance": 0.8743914313534566
+      },
+      {
+        "frame": 7,
+        "fraction": 0.9669421487603306,
+        "hue": 107,
+        "dominance": 0.856710393541877
+      },
+      {
+        "frame": 8,
+        "fraction": 0.9669421487603306,
+        "hue": 107,
+        "dominance": 0.8785249457700651
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 18,
+      "x": 1140.6583892315984,
+      "y": 546.8726043600647
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 17,
+        "fraction": 1.0,
+        "hue": 107,
+        "dominance": 0.9517396184062851
+      },
+      {
+        "frame": 18,
+        "fraction": 1.0,
+        "hue": 107,
+        "dominance": 0.9298597194388778
+      },
+      {
+        "frame": 19,
+        "fraction": 1.0,
+        "hue": 107,
+        "dominance": 0.8461538461538461
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 32,
+      "x": 1305.6722459747111,
+      "y": 476.8767624852178
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 31,
+        "fraction": 0.8264462809917356,
+        "hue": 107,
+        "dominance": 0.7356446370530878
+      },
+      {
+        "frame": 32,
+        "fraction": 0.8264462809917356,
+        "hue": 107,
+        "dominance": 0.7789115646258503
+      },
+      {
+        "frame": 33,
+        "fraction": 0.8264462809917356,
+        "hue": 107,
+        "dominance": 0.8081264108352144
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 50,
+      "x": 996.7177696503452,
+      "y": 556.3866971970867
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 49,
+        "fraction": 1.0,
+        "hue": 107,
+        "dominance": 0.9416745061147695
+      },
+      {
+        "frame": 50,
+        "fraction": 1.0,
+        "hue": 107,
+        "dominance": 0.9376770538243626
+      },
+      {
+        "frame": 51,
+        "fraction": 1.0,
+        "hue": 107,
+        "dominance": 0.9264432029795159
+      }
+    ]
+  }
+]

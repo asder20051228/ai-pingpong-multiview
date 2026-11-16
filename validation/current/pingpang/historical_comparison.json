@@ -1,0 +1,9 @@
+{
+  "historical_events": 90,
+  "current_events": 90,
+  "same_video_frame_keys": true,
+  "max_coordinate_distance_px": 1.1115159974262612,
+  "mean_coordinate_distance_px": 0.10518181197655178,
+  "historical_only": [],
+  "current_only": []
+}

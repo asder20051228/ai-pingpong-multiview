@@ -1,0 +1,34 @@
+[
+  {
+    "hit": {
+      "frame_id": 45,
+      "x": 1001.2177222898904,
+      "y": 350.57095006090134
+    },
+    "color": {
+      "veto": false,
+      "reason": "color_support",
+      "support": [
+        {
+          "frame": 44,
+          "fraction": 0.6198347107438017,
+          "hue": 102,
+          "dominance": 0.9054054054054054
+        },
+        {
+          "frame": 45,
+          "fraction": 0.6198347107438017,
+          "hue": 102,
+          "dominance": 0.9354120267260579
+        },
+        {
+          "frame": 46,
+          "fraction": 0.6363636363636364,
+          "hue": 102,
+          "dominance": 0.9402654867256637
+        }
+      ]
+    },
+    "accepted": true
+  }
+]

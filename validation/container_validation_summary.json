@@ -1,0 +1,135 @@
+{
+  "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "runtime": "Docker Desktop / WSL2",
+  "image": "pingpang-submit:20261115",
+  "container_exit_code": 0,
+  "network": "none",
+  "tasks": {
+    "pingpang": {
+      "started_at": "2026-11-15T15:54:25",
+      "finished_at": "2026-11-15T15:55:22",
+      "timing": {
+        "prepare_sec": 1.3,
+        "engine_build_sec": 0.0,
+        "infer_sec": 53.9,
+        "total_sec": 55.1
+      },
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 53.9,
+        "infer_fps": 39.1,
+        "avg_video_fps": 40.0,
+        "p50_video_fps": 41.7,
+        "p90_video_fps": 44.6
+      },
+      "validation": {
+        "n_lines": 90,
+        "n_errors": 0,
+        "n_warnings": 0,
+        "errors": [],
+        "near_dup_examples": [],
+        "videos_with_predictions": 15
+      },
+      "videos_passed": 15,
+      "cpu_fallbacks": 0,
+      "environment_check": "passed",
+      "solution_check": "passed"
+    },
+    "basketball": {
+      "started_at": "2026-11-15T15:55:23",
+      "finished_at": "2026-11-15T15:56:08",
+      "timing": {
+        "prepare_sec": 2.7,
+        "engine_build_sec": 0.0,
+        "infer_sec": 42.5,
+        "total_sec": 45.2
+      },
+      "performance": {
+        "total_frames": 1500,
+        "infer_sec": 42.5,
+        "infer_fps": 35.3,
+        "avg_video_fps": 35.3,
+        "p50_video_fps": 35.5,
+        "p90_video_fps": 35.5
+      },
+      "validation": {
+        "n_lines": 13264,
+        "n_errors": 0,
+        "n_warnings": 0,
+        "errors": [],
+        "cap_exceeded_frames": 0,
+        "cap_examples": [],
+        "videos_with_predictions": 2
+      },
+      "videos_passed": 2,
+      "cpu_fallbacks": 0,
+      "environment_check": "passed",
+      "solution_check": "passed"
+    }
+  },
+  "local_scores": {
+    "strict": {
+      "counts": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          0,
+          1
+        ],
+        "90度": [
+          31,
+          3,
+          2
+        ]
+      },
+      "points_of_75": 70.30099502487562
+    },
+    "lenient": {
+      "counts": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          0,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "points_of_75": 71.38541666666667
+    }
+  },
+  "prediction_sha256": "882e6427ac0bba879f911d40034f38ad177a26fb4e87816add74b59f4e92954e",
+  "historical_prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+  "byte_identical_to_historical": false,
+  "historical_comparison": {
+    "historical_events": 90,
+    "current_events": 90,
+    "same_video_frame_keys": true,
+    "max_coordinate_distance_px": 1.1115159974262612,
+    "mean_coordinate_distance_px": 0.10518181197655178,
+    "historical_only": [],
+    "current_only": []
+  },
+  "limitations": [
+    "Single RTX 4060 Laptop GPU, not the designated 2x4090 platform",
+    "Public validation reused during development; no independent generalization claim",
+    "Local lenient/strict scores are not official hidden-test scores"
+  ],
+  "report_paragraphs": [
+    "2026年11月15日在本机单张RTX 4060 Laptop GPU、Docker Desktop/WSL2及禁网容器中完成验证。两任务环境与方案自检通过；官方联合入口处理乒乓球15/15、篮球2/2段视频，退出码0，格式错误和CPU解码回退均为0。",
+    "本次乒乓球推理速度为39.1 FPS，本地宽松精度分71.3854/75，严格精度分70.3010/75。与历史4090记录的90个事件帧号一致，坐标最大相差1.12像素。"
+  ],
+  "validation_load_note": "Docker image export ran concurrently; local FPS is a compatibility-test observation, not an official hardware benchmark."
+}

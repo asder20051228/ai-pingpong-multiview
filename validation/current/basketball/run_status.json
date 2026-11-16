@@ -1,0 +1,65 @@
+{
+ "status": "ok",
+ "started_at": "2026-11-15T15:55:23",
+ "videos": [
+  {
+   "video_id": "魔术vs凯尔特人_seg1_main",
+   "status": "ok",
+   "frames": 750,
+   "predictions": 7590,
+   "sec": 21.13,
+   "fps": 35.5,
+   "decode_sec": 4.03,
+   "solution_sec": 16.77,
+   "write_sec": 0.26
+  },
+  {
+   "video_id": "魔术vs凯尔特人_seg2_switch",
+   "status": "ok",
+   "frames": 750,
+   "predictions": 5674,
+   "sec": 21.36,
+   "fps": 35.1,
+   "decode_sec": 3.98,
+   "solution_sec": 17.16,
+   "write_sec": 0.16
+  }
+ ],
+ "totals": {
+  "videos": 2,
+  "ok": 2,
+  "failed": 0,
+  "skipped": 0,
+  "cpu_fallback": 0,
+  "frames": 1500,
+  "predictions": 13264
+ },
+ "finished_at": "2026-11-15T15:56:08",
+ "solution_info": {
+  "backend": "tensorrt_cached"
+ },
+ "timing": {
+  "prepare_sec": 2.7,
+  "engine_build_sec": 0.0,
+  "infer_sec": 42.5,
+  "total_sec": 45.2
+ },
+ "performance": {
+  "total_frames": 1500,
+  "infer_sec": 42.5,
+  "infer_fps": 35.3,
+  "avg_video_fps": 35.3,
+  "p50_video_fps": 35.5,
+  "p90_video_fps": 35.5
+ },
+ "validation": {
+  "n_lines": 13264,
+  "n_errors": 0,
+  "n_warnings": 0,
+  "errors": [],
+  "cap_exceeded_frames": 0,
+  "cap_examples": [],
+  "videos_with_predictions": 2
+ },
+ "output_size_gb": 0.01
+}

@@ -1,0 +1,9 @@
+# Preserve official framework byte hashes on Windows and Linux.
+participant/** -text
+*.onnx binary
+*.docx binary
+*.pdf binary
+Dockerfile text eol=lf
+selftest.sh text eol=lf
+tools/*.py text eol=lf
+README.md text eol=lf

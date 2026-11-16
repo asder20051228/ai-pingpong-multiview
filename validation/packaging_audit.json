@@ -1,0 +1,16 @@
+{
+  "source": "nvdec_parallel_20261018/submission",
+  "entrypoint": "/participant/run_all.sh",
+  "solution": "participant.solution:Solution",
+  "official_files_verified": 42,
+  "all_python_parses": true,
+  "file_count": 90,
+  "source_bytes": 258440416,
+  "base": "sport-base:v1",
+  "base_config_sha256": "88f61efa47aec29e86cc8017026a7b65a634f3c1e613e1949766c33bfdb004db",
+  "public_videos_resolved": {
+    "pingpang": 15,
+    "basketball": 2
+  },
+  "basketball_filename_repairs": 2
+}

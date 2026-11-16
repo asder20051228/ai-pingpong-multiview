@@ -1,0 +1,12 @@
+{
+  "ImageId": "sha256:4c6aaebaa39d220407f84cdb5935f582edbccaebef8ec7d951094f5b4c0cd8c4",
+  "OS": "linux",
+  "Architecture": "amd64",
+  "Entrypoint": [
+    "/participant/run_all.sh"
+  ],
+  "BaseLayers": 29,
+  "ImageLayers": 33,
+  "OfficialBasePrefixMatches": true,
+  "ImageBytes": 23970519948
+}

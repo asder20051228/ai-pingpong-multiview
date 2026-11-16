@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.engine
+*.mp4
+*.tar
+*.tar.gz
+*.zip
+*.part[0-9]*
+.env
+downloads/
+output/
+test-output/
+**/trt_cache/
+**/out_check_solution/

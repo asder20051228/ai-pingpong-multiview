@@ -1,0 +1,118 @@
+[
+  {
+    "hit": {
+      "frame_id": 23,
+      "x": 1096.5063126506789,
+      "y": 362.31712346148964
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 22,
+        "fraction": 0.5785123966942148,
+        "hue": 102,
+        "dominance": 0.9294117647058824
+      },
+      {
+        "frame": 23,
+        "fraction": 0.5867768595041323,
+        "hue": 102,
+        "dominance": 0.8984771573604061
+      },
+      {
+        "frame": 24,
+        "fraction": 0.5785123966942148,
+        "hue": 102,
+        "dominance": 0.938953488372093
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 58,
+      "x": 1085.2862261008363,
+      "y": 509.5787935042854
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 57,
+        "fraction": 0.4380165289256198,
+        "hue": 97,
+        "dominance": 0.9977477477477478
+      },
+      {
+        "frame": 58,
+        "fraction": 0.4462809917355372,
+        "hue": 97,
+        "dominance": 0.9974025974025974
+      },
+      {
+        "frame": 59,
+        "fraction": 0.33884297520661155,
+        "hue": 97,
+        "dominance": 1.0
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 66,
+      "x": 928.0835179776412,
+      "y": 350.59258233457547
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 65,
+        "fraction": 0.6363636363636364,
+        "hue": 97,
+        "dominance": 0.995085995085995
+      },
+      {
+        "frame": 66,
+        "fraction": 0.6363636363636364,
+        "hue": 97,
+        "dominance": 0.9975609756097561
+      },
+      {
+        "frame": 67,
+        "fraction": 0.6363636363636364,
+        "hue": 97,
+        "dominance": 0.9910714285714286
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 76,
+      "x": 955.940957803081,
+      "y": 455.25592766242465
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 75,
+        "fraction": 1.0,
+        "hue": 97,
+        "dominance": 1.0
+      },
+      {
+        "frame": 76,
+        "fraction": 1.0,
+        "hue": 92,
+        "dominance": 1.0
+      },
+      {
+        "frame": 77,
+        "fraction": 1.0,
+        "hue": 92,
+        "dominance": 1.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+完整性校验通过
+PASS torch 契约: torch 2.1.2+cu118, cuda 可用=True
+PASS numpy 契约: numpy 1.26.4
+PASS TensorRT: TensorRT 8.6.1（import 成功即 LD_LIBRARY_PATH 契约生效）
+PASS ORT CUDA EP: onnxruntime-gpu 1.18.1, CUDA EP 可用
+PASS av/opencv: av 17.1.0, opencv 4.11.0
+PASS ffmpeg GPU 解码: /usr/bin/ffmpeg, cuda hwaccel 可用
+PASS GPU 资源: 1 卡: NVIDIA GeForce RTX 4060 Laptop GPU 7GB
+PASS 磁盘额度: / 可用 929.1GB（评测输出限 1GB）
+
+ENV CHECK ALL PASSED ✅
+TRT engine 不存在，从 ONNX 构建: /participant/pingpang/scripts/out_check_solution/trt_cache/8.6.1/NVIDIA GeForce RTX 4060 Laptop GPU/ball-85e496496855.engine
+  building TensorRT engine, this may take several minutes（约 5 分钟，属正常，勿中断）
+[11/15/2026-15:43:48] [TRT] [W] onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[11/15/2026-15:47:53] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[11/15/2026-15:47:53] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[11/15/2026-15:47:53] [TRT] [W] Check verbose logs for the list of affected weights.
+[11/15/2026-15:47:53] [TRT] [W] - 55 weights are affected by this issue: Detected subnormal FP16 values.
+[11/15/2026-15:47:53] [TRT] [W] - 1 weights are affected by this issue: Detected values less than smallest positive FP16 subnormal value and converted them to the FP16 minimum subnormalized value.
+TRT engine 不存在，从 ONNX 构建: /participant/pingpang/scripts/out_check_solution/trt_cache/8.6.1/NVIDIA GeForce RTX 4060 Laptop GPU/table_region-98dcf7158e7b.engine
+  building TensorRT engine, this may take several minutes（约 5 分钟，属正常，勿中断）
+[11/15/2026-15:48:00] [TRT] [W] onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[11/15/2026-15:48:28] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[11/15/2026-15:48:28] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[11/15/2026-15:48:28] [TRT] [W] Check verbose logs for the list of affected weights.
+[11/15/2026-15:48:28] [TRT] [W] - 20 weights are affected by this issue: Detected subnormal FP16 values.
+[11/15/2026-15:48:28] [TRT] [W] - 9 weights are affected by this issue: Detected values less than smallest positive FP16 subnormal value and converted them to the FP16 minimum subnormalized value.
+[11/15/2026-15:48:34] [TRT] [W] onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+BUILD_STRICT_FP32
+BUILT_STRICT_FP32_SECONDS 54.041781410999874
+GPU_EXECUTION {'visible_count': 1, 'used_count': 1, 'ball_device': 0, 'table_device': 0, 'cuda_visible_devices': None, 'branch_parallel': False, 'same_gpu_branch_diagnostic': False, 'devices': ['NVIDIA GeForce RTX 4060 Laptop GPU']}
+2026-11-15T15:49:23 [INFO] prepare 完成（342.4s）
+FUSION v000001 observed 98 added 3 constrained True
+2026-11-15T15:49:27 [INFO] v000001 [0度] ok: 125 帧 / 5 落点 / 3.4s
+{
+ "run_status": "ok",
+ "video": {
+  "video_id": "v000001",
+  "status": "ok",
+  "frames": 125,
+  "predictions": 5,
+  "sec": 3.37,
+  "fps": 37.1,
+  "decode_sec": 0.93,
+  "solution_sec": 2.36,
+  "write_sec": 0.0
+ },
+ "validation": {
+  "n_lines": 5,
+  "n_errors": 0,
+  "n_warnings": 0
+ },
+ "errors": []
+}
+SOLUTION CHECK PASSED ✅（可提交全量评测）
+完整性校验通过
+PASS torch 契约: torch 2.1.2+cu118, cuda 可用=True
+PASS numpy 契约: numpy 1.26.4
+PASS TensorRT: TensorRT 8.6.1（import 成功即 LD_LIBRARY_PATH 契约生效）
+PASS ORT CUDA EP: onnxruntime-gpu 1.18.1, CUDA EP 可用
+PASS av/opencv: av 17.1.0, opencv 4.11.0
+PASS ffmpeg GPU 解码: /usr/bin/ffmpeg, cuda hwaccel 可用
+PASS GPU 资源: 1 卡: NVIDIA GeForce RTX 4060 Laptop GPU 7GB
+PASS 磁盘额度: / 可用 929.1GB（评测输出限 1GB）
+
+ENV CHECK ALL PASSED ✅
+TRT engine 不存在，从 ONNX 构建: /participant/basketball/scripts/out_check_solution/trt_cache/8.6.1/NVIDIA GeForce RTX 4060 Laptop GPU/player-62741481c326.engine
+  building TensorRT engine, this may take several minutes（约 5 分钟，属正常，勿中断）
+[11/15/2026-15:49:38] [TRT] [W] onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[11/15/2026-15:54:05] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[11/15/2026-15:54:05] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[11/15/2026-15:54:05] [TRT] [W] Check verbose logs for the list of affected weights.
+[11/15/2026-15:54:05] [TRT] [W] - 84 weights are affected by this issue: Detected subnormal FP16 values.
+[11/15/2026-15:54:05] [TRT] [W] - 3 weights are affected by this issue: Detected values less than smallest positive FP16 subnormal value and converted them to the FP16 minimum subnormalized value.
+2026-11-15T15:54:07 [INFO] prepare 完成（276.4s）
+2026-11-15T15:54:24 [INFO] 魔术vs凯尔特人_seg1_main [魔术vs凯尔特人/main] ok: 750 帧 / 7590 框 / 16.5s
+{
+ "run_status": "ok",
+ "video": {
+  "video_id": "魔术vs凯尔特人_seg1_main",
+  "status": "ok",
+  "frames": 750,
+  "predictions": 7590,
+  "sec": 16.47,
+  "fps": 45.5,
+  "decode_sec": 3.63,
+  "solution_sec": 12.7,
+  "write_sec": 0.07
+ },
+ "validation": {
+  "n_lines": 7590,
+  "n_errors": 0,
+  "n_warnings": 0
+ },
+ "errors": []
+}
+SOLUTION CHECK PASSED ✅（可提交全量评测）
+完整性校验通过
+完整性校验通过
+[run_all] 任务 1/2：pingpang 开始 15:54:25
+2026-11-15T15:54:25 [INFO] manifest=/tmp/public_input/pingpang/manifest.json videos=15 decoder=gpu solution=participant.solution:Solution
+GPU_EXECUTION {'visible_count': 1, 'used_count': 1, 'ball_device': 0, 'table_device': 0, 'cuda_visible_devices': None, 'branch_parallel': False, 'same_gpu_branch_diagnostic': False, 'devices': ['NVIDIA GeForce RTX 4060 Laptop GPU']}
+2026-11-15T15:54:28 [INFO] prepare 完成（1.3s）
+FUSION v000001 observed 98 added 3 constrained True
+2026-11-15T15:54:31 [INFO] v000001 [0度] ok: 125 帧 / 5 落点 / 3.0s
+FUSION v000010 observed 97 added 0 constrained True
+2026-11-15T15:54:33 [INFO] v000010 [0度] ok: 116 帧 / 3 落点 / 2.8s
+FUSION v000019 observed 136 added 5 constrained True
+2026-11-15T15:54:37 [INFO] v000019 [0度] ok: 178 帧 / 5 落点 / 4.0s
+FUSION v000028 observed 67 added 2 constrained True
+2026-11-15T15:54:40 [INFO] v000028 [0度] ok: 101 帧 / 2 落点 / 2.3s
+FUSION v000037 observed 79 added 1 constrained True
+2026-11-15T15:54:42 [INFO] v000037 [0度] ok: 95 帧 / 4 落点 / 2.4s
+FUSION v000038 observed 138 added 2 constrained True
+2026-11-15T15:54:49 [INFO] v000038 [45度] ok: 197 帧 / 6 落点 / 6.4s
+FUSION v000047 observed 55 added 2 constrained True
+2026-11-15T15:54:51 [INFO] v000047 [45度] ok: 89 帧 / 3 落点 / 2.3s
+FUSION v000057 observed 123 added 2 constrained True
+2026-11-15T15:54:54 [INFO] v000057 [45度] ok: 131 帧 / 7 落点 / 3.0s
+FUSION v000066 observed 81 added 5 constrained True
+2026-11-15T15:54:57 [INFO] v000066 [45度] ok: 113 帧 / 7 落点 / 2.7s
+FUSION v000075 observed 64 added 0 constrained True
+2026-11-15T15:54:58 [INFO] v000075 [45度] ok: 68 帧 / 4 落点 / 1.7s
+FUSION v000085 observed 167 added 5 constrained True
+2026-11-15T15:55:03 [INFO] v000085 [45度] ok: 208 帧 / 6 落点 / 4.6s
+FUSION v000094 observed 70 added 2 constrained True
+2026-11-15T15:55:07 [INFO] v000094 [45度] ok: 98 帧 / 4 落点 / 4.6s
+FUSION v000095 observed 210 added 1 constrained True
+2026-11-15T15:55:13 [INFO] v000095 [90度] ok: 221 帧 / 16 落点 / 5.2s
+FUSION v000106 observed 144 added 7 constrained True
+2026-11-15T15:55:17 [INFO] v000106 [90度] ok: 191 帧 / 9 落点 / 4.4s
+FUSION v000117 observed 161 added 0 constrained True
+2026-11-15T15:55:22 [INFO] v000117 [90度] ok: 178 帧 / 9 落点 / 4.5s
+2026-11-15T15:55:22 [INFO] validate: 90 行, 0 非法, 0 近邻重复警告
+2026-11-15T15:55:22 [INFO] 完成 status=ok -> /participant/output/pingpang
+[run_all] 任务 1/2：pingpang 退出码 0
+[run_all] 任务 2/2：basketball 开始 15:55:22
+2026-11-15T15:55:23 [INFO] manifest=/tmp/public_input/basketball/manifest.json videos=2 decoder=gpu solution=participant.solution:Solution
+2026-11-15T15:55:26 [INFO] prepare 完成（2.7s）
+2026-11-15T15:55:47 [INFO] 魔术vs凯尔特人_seg1_main [魔术vs凯尔特人/main] ok: 750 帧 / 7590 框 / 21.1s
+2026-11-15T15:56:08 [INFO] 魔术vs凯尔特人_seg2_switch [魔术vs凯尔特人/switch] ok: 750 帧 / 5674 框 / 21.4s
+2026-11-15T15:56:08 [INFO] validate: 13264 行, 0 非法, 0 超每帧上限警告
+2026-11-15T15:56:08 [INFO] 完成 status=ok -> /participant/output/basketball
+[run_all] 任务 2/2：basketball 退出码 0

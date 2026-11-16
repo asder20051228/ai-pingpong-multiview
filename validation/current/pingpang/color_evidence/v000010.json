@@ -1,0 +1,89 @@
+[
+  {
+    "hit": {
+      "frame_id": 25,
+      "x": 1073.1505534667263,
+      "y": 442.5351996950017
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 24,
+        "fraction": 1.0,
+        "hue": 112,
+        "dominance": 0.9353932584269663
+      },
+      {
+        "frame": 25,
+        "fraction": 1.0,
+        "hue": 117,
+        "dominance": 0.9385474860335196
+      },
+      {
+        "frame": 26,
+        "fraction": 1.0,
+        "hue": 117,
+        "dominance": 0.9162011173184358
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 35,
+      "x": 926.2162623982706,
+      "y": 366.21201042726346
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 34,
+        "fraction": 1.0,
+        "hue": 112,
+        "dominance": 0.7004830917874396
+      },
+      {
+        "frame": 35,
+        "fraction": 1.0,
+        "hue": 112,
+        "dominance": 0.7338129496402878
+      },
+      {
+        "frame": 36,
+        "fraction": 1.0,
+        "hue": 112,
+        "dominance": 0.7122905027932961
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 66,
+      "x": 967.2375167720911,
+      "y": 374.3732029902243
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 65,
+        "fraction": 1.0,
+        "hue": 112,
+        "dominance": 0.8394736842105263
+      },
+      {
+        "frame": 66,
+        "fraction": 0.9917355371900827,
+        "hue": 112,
+        "dominance": 0.8617886178861789
+      },
+      {
+        "frame": 67,
+        "fraction": 1.0,
+        "hue": 112,
+        "dominance": 0.8663101604278075
+      }
+    ]
+  }
+]

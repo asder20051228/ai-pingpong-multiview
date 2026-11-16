@@ -1,0 +1,205 @@
+[
+  {
+    "hit": {
+      "frame_id": 6,
+      "x": 1089.8933186347017,
+      "y": 414.2759412240797
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 5,
+        "fraction": 0.4214876033057851,
+        "hue": 127,
+        "dominance": 0.8793565683646113
+      },
+      {
+        "frame": 6,
+        "fraction": 0.4132231404958678,
+        "hue": 122,
+        "dominance": 0.9216710182767625
+      },
+      {
+        "frame": 7,
+        "fraction": 0.4049586776859504,
+        "hue": 122,
+        "dominance": 0.8844011142061281
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 52,
+      "x": 1138.888589791043,
+      "y": 439.2640650762139
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 51,
+        "fraction": 0.6859504132231405,
+        "hue": 127,
+        "dominance": 0.9500624219725343
+      },
+      {
+        "frame": 52,
+        "fraction": 0.6694214876033058,
+        "hue": 127,
+        "dominance": 0.9301204819277108
+      },
+      {
+        "frame": 53,
+        "fraction": 0.6776859504132231,
+        "hue": 127,
+        "dominance": 0.9068684516880093
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 65,
+      "x": 882.6983244365362,
+      "y": 496.6249011466983
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 64,
+        "fraction": 0.7520661157024794,
+        "hue": 127,
+        "dominance": 0.9663573085846868
+      },
+      {
+        "frame": 65,
+        "fraction": 0.743801652892562,
+        "hue": 127,
+        "dominance": 0.9663573085846868
+      },
+      {
+        "frame": 66,
+        "fraction": 0.7520661157024794,
+        "hue": 127,
+        "dominance": 0.9736842105263158
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 113,
+      "x": 1311.4665071081865,
+      "y": 457.38848492987734
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 112,
+        "fraction": 0.5206611570247934,
+        "hue": 127,
+        "dominance": 0.9651972157772621
+      },
+      {
+        "frame": 113,
+        "fraction": 0.512396694214876,
+        "hue": 127,
+        "dominance": 0.9663182346109176
+      },
+      {
+        "frame": 114,
+        "fraction": 0.512396694214876,
+        "hue": 127,
+        "dominance": 0.967479674796748
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 128,
+      "x": 882.7287944477465,
+      "y": 483.6669172406559
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 127,
+        "fraction": 0.5702479338842975,
+        "hue": 127,
+        "dominance": 0.9663573085846868
+      },
+      {
+        "frame": 128,
+        "fraction": 0.5785123966942148,
+        "hue": 127,
+        "dominance": 0.9602484472049689
+      },
+      {
+        "frame": 129,
+        "fraction": 0.5702479338842975,
+        "hue": 127,
+        "dominance": 0.9626865671641791
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 202,
+      "x": 705.4771195459382,
+      "y": 429.82750975523237
+    },
+    "veto": true,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 201,
+        "fraction": 0.0,
+        "hue": 122,
+        "dominance": 0.9602977667493796
+      },
+      {
+        "frame": 202,
+        "fraction": 0.0,
+        "hue": 122,
+        "dominance": 0.9756410256410256
+      },
+      {
+        "frame": 203,
+        "fraction": 0.0,
+        "hue": 122,
+        "dominance": 0.9743918053777209
+      }
+    ]
+  },
+  {
+    "hit": {
+      "frame_id": 16,
+      "x": 1027.0084373014015,
+      "y": 565.1487189350102
+    },
+    "veto": false,
+    "reason": "color_support",
+    "support": [
+      {
+        "frame": 15,
+        "fraction": 0.9834710743801653,
+        "hue": 127,
+        "dominance": 0.9576783555018138
+      },
+      {
+        "frame": 16,
+        "fraction": 0.9917355371900827,
+        "hue": 122,
+        "dominance": 0.9075067024128687
+      },
+      {
+        "frame": 17,
+        "fraction": 0.9834710743801653,
+        "hue": 127,
+        "dominance": 0.8484005563282336
+      }
+    ]
+  }
+]

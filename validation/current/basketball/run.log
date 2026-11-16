@@ -1,0 +1,6 @@
+2026-11-15T15:55:23 [INFO] manifest=/tmp/public_input/basketball/manifest.json videos=2 decoder=gpu solution=participant.solution:Solution
+2026-11-15T15:55:26 [INFO] prepare 完成（2.7s）
+2026-11-15T15:55:47 [INFO] 魔术vs凯尔特人_seg1_main [魔术vs凯尔特人/main] ok: 750 帧 / 7590 框 / 21.1s
+2026-11-15T15:56:08 [INFO] 魔术vs凯尔特人_seg2_switch [魔术vs凯尔特人/switch] ok: 750 帧 / 5674 框 / 21.4s
+2026-11-15T15:56:08 [INFO] validate: 13264 行, 0 非法, 0 超每帧上限警告
+2026-11-15T15:56:08 [INFO] 完成 status=ok -> /participant/output/basketball

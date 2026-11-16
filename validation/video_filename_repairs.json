@@ -1,0 +1,12 @@
+[
+  {
+    "target": "docker-build/participant/basketball/public_data/videos/2025-26NBA_常规赛_魔术vs凯尔特人_蔡凯臣_seg1_main.mp4",
+    "sha256": "d490dbc389fd127a3c7d0d913f87f4db9d412ee09e83c6911778b72c7d4e4d1b",
+    "reason": "Repair existing mojibake filename to match unchanged official manifest"
+  },
+  {
+    "target": "docker-build/participant/basketball/public_data/videos/2025-26NBA_常规赛_魔术vs凯尔特人_蔡凯臣_seg2_switch.mp4",
+    "sha256": "f11fa47ea3b2cf8758910a27ab481e3f0635b8fe064df453efa0cab02fc41898",
+    "reason": "Repair existing mojibake filename to match unchanged official manifest"
+  }
+]

@@ -1,0 +1,225 @@
+{
+ "status": "ok",
+ "started_at": "2026-10-18T19:21:22",
+ "videos": [
+  {
+   "video_id": "v000001",
+   "status": "ok",
+   "frames": 125,
+   "predictions": 5,
+   "sec": 2.64,
+   "fps": 47.3,
+   "decode_sec": 2.3,
+   "solution_sec": 0.18,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000010",
+   "status": "ok",
+   "frames": 116,
+   "predictions": 3,
+   "sec": 2.63,
+   "fps": 44.1,
+   "decode_sec": 2.23,
+   "solution_sec": 0.13,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000019",
+   "status": "ok",
+   "frames": 178,
+   "predictions": 5,
+   "sec": 3.39,
+   "fps": 52.5,
+   "decode_sec": 3.04,
+   "solution_sec": 0.2,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000028",
+   "status": "ok",
+   "frames": 101,
+   "predictions": 2,
+   "sec": 2.38,
+   "fps": 42.4,
+   "decode_sec": 1.94,
+   "solution_sec": 0.11,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000037",
+   "status": "ok",
+   "frames": 95,
+   "predictions": 4,
+   "sec": 2.1,
+   "fps": 45.2,
+   "decode_sec": 1.71,
+   "solution_sec": 0.12,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000038",
+   "status": "ok",
+   "frames": 197,
+   "predictions": 6,
+   "sec": 4.2,
+   "fps": 46.9,
+   "decode_sec": 3.52,
+   "solution_sec": 0.31,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000047",
+   "status": "ok",
+   "frames": 89,
+   "predictions": 3,
+   "sec": 2.12,
+   "fps": 42.0,
+   "decode_sec": 1.73,
+   "solution_sec": 0.12,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000057",
+   "status": "ok",
+   "frames": 131,
+   "predictions": 7,
+   "sec": 2.95,
+   "fps": 44.4,
+   "decode_sec": 2.41,
+   "solution_sec": 0.23,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000066",
+   "status": "ok",
+   "frames": 113,
+   "predictions": 7,
+   "sec": 2.46,
+   "fps": 45.9,
+   "decode_sec": 2.06,
+   "solution_sec": 0.21,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000075",
+   "status": "ok",
+   "frames": 68,
+   "predictions": 4,
+   "sec": 1.89,
+   "fps": 36.0,
+   "decode_sec": 1.43,
+   "solution_sec": 0.11,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000085",
+   "status": "ok",
+   "frames": 208,
+   "predictions": 6,
+   "sec": 3.94,
+   "fps": 52.8,
+   "decode_sec": 3.4,
+   "solution_sec": 0.3,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000094",
+   "status": "ok",
+   "frames": 98,
+   "predictions": 4,
+   "sec": 2.16,
+   "fps": 45.4,
+   "decode_sec": 1.86,
+   "solution_sec": 0.16,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000095",
+   "status": "ok",
+   "frames": 221,
+   "predictions": 16,
+   "sec": 4.7,
+   "fps": 47.0,
+   "decode_sec": 3.79,
+   "solution_sec": 0.57,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000106",
+   "status": "ok",
+   "frames": 191,
+   "predictions": 9,
+   "sec": 3.71,
+   "fps": 51.5,
+   "decode_sec": 3.27,
+   "solution_sec": 0.33,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000117",
+   "status": "ok",
+   "frames": 178,
+   "predictions": 9,
+   "sec": 3.73,
+   "fps": 47.7,
+   "decode_sec": 3.2,
+   "solution_sec": 0.31,
+   "write_sec": 0.0
+  }
+ ],
+ "totals": {
+  "videos": 15,
+  "ok": 15,
+  "failed": 0,
+  "skipped": 0,
+  "cpu_fallback": 0,
+  "frames": 2109,
+  "predictions": 90
+ },
+ "finished_at": "2026-10-18T19:22:09",
+ "solution_info": {
+  "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+  "gpu_execution": {
+   "visible_count": 1,
+   "used_count": 1,
+   "ball_device": 0,
+   "table_device": 0,
+   "cuda_visible_devices": "0",
+   "branch_parallel": true,
+   "same_gpu_branch_diagnostic": false,
+   "devices": [
+    "NVIDIA GeForce RTX 4090"
+   ]
+  },
+  "pipeline": {
+   "max_pending_frames": 2,
+   "ordered": true,
+   "finish_joins": true
+  },
+  "opencv_threads": 1
+ },
+ "timing": {
+  "prepare_sec": 0.9,
+  "engine_build_sec": 0.0,
+  "infer_sec": 45.0,
+  "total_sec": 45.9
+ },
+ "performance": {
+  "total_frames": 2109,
+  "infer_sec": 45.0,
+  "infer_fps": 46.8,
+  "avg_video_fps": 46.1,
+  "p50_video_fps": 45.9,
+  "p90_video_fps": 52.5
+ },
+ "validation": {
+  "n_lines": 90,
+  "n_errors": 0,
+  "n_warnings": 0,
+  "errors": [],
+  "near_dup_examples": [],
+  "videos_with_predictions": 15
+ },
+ "output_size_gb": 0.025
+}
