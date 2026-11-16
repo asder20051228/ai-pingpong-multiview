@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-16T04:17:32.310963+00:00",
+  "verified_at": "2026-11-16T08:18:01.625670+00:00",
   "repository": "https://github.com/asder20051228/ai-pingpong-multiview",
   "visibility": "public",
   "release": "https://github.com/asder20051228/ai-pingpong-multiview/releases/tag/v2026.11.16",
@@ -7,7 +7,7 @@
   "tag_commit": "f25ee9a9c457694c0399a71a97ee7f7d70df6754",
   "published_at": "2026-11-16T04:17:11Z",
   "asset_count": 21,
-  "total_bytes": 14729592485,
+  "total_bytes": 14729598371,
   "all_github_sha256_digests_match_local_manifest": true,
   "anonymous_release_access_verified": true,
   "public_download_checks": [
@@ -48,7 +48,7 @@
     {
       "name": "SHA256SUMS.txt",
       "size": 2011,
-      "digest": "sha256:9986fceb5ee18b716ef9e29ab8326be7da8ae537d5ca007fa724c5cd479fd135",
+      "digest": "sha256:7c343a69aee6a62670f9d99f37967fb4505b190dc07d7df754cd5157eb698d3b",
       "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/SHA256SUMS.txt"
     },
     {
@@ -155,20 +155,20 @@
     },
     {
       "name": "technical-report.docx",
-      "size": 48349,
-      "digest": "sha256:1f5c0c41af1f79b6558f2ad64e02428f00ef76f22467bd4109c442974c8d9954",
+      "size": 48559,
+      "digest": "sha256:b066d3c758c4df65bc42cbf63a1fc5ddfb82a2b697d7903a0c8ef7a33d6118ab",
       "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/technical-report.docx"
     },
     {
       "name": "technical-report.md",
-      "size": 17352,
-      "digest": "sha256:ee5c1f21edaca532f16d70e1aa28b15435138a4580078faae4954f5e16fb5f8f",
+      "size": 17533,
+      "digest": "sha256:3d5d2bc3bcf96ea17e8d8a549d15627bbeabb56041747a951d59e2b7fd82de93",
       "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/technical-report.md"
     },
     {
       "name": "technical-report.pdf",
-      "size": 538645,
-      "digest": "sha256:415edebb207902facc96c23eb3f7653ce76ed8e6ec29590fde53a559562190eb",
+      "size": 544140,
+      "digest": "sha256:dfec03a6d4b543bcdd32fc022685cbfa72fa3428e749153c990701b195ada939",
       "browser_download_url": "https://github.com/asder20051228/ai-pingpong-multiview/releases/download/v2026.11.16/technical-report.pdf"
     }
   ]

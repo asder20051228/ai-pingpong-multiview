@@ -6,6 +6,10 @@
 整理日期  2026年11月15日  
 GitHub版更新  2026年11月16日
 
+GitHub代码仓库  https://github.com/asder20051228/ai-pingpong-multiview
+
+Docker镜像下载  https://github.com/asder20051228/ai-pingpong-multiview/releases/tag/v2026.11.16
+
 ## 摘要
 
 本项目面向乒乓球比赛视频，识别球接触球台的时刻及图像位置。方案复用官方三帧球定位ONNX模型，训练球台区域预测模型，结合轨迹变化、台内约束、短时缺失恢复及颜色证据识别触台事件。针对不同GPU上低精度推理引起的阈值变化，增加置信度边界处的严格FP32复核，并采用有界队列重叠视频解码与模型推理。

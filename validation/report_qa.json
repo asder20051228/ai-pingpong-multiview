@@ -4,5 +4,7 @@
   "all_pages_rendered_and_visually_reviewed": true,
   "no_clipped_content": true,
   "github_links_present": true,
+  "github_links_on_first_page": true,
+  "reviewed_after_front_page_update": "2026-11-16",
   "verified_metrics": true
 }
