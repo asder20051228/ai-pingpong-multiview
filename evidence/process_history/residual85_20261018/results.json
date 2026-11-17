@@ -1,0 +1,684 @@
+{
+  "baseline": {
+    "counts": [
+      85,
+      4,
+      7
+    ],
+    "points_of_75": 70.09537337662337
+  },
+  "runs": {
+    "profile_1": {
+      "counts": [
+        85,
+        4,
+        7
+      ],
+      "points_of_75": 70.09537337662337,
+      "strict_points_of_75": 69.01095173483233,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          36,
+          3,
+          2
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.935064935064935,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [],
+      "lost": [],
+      "prediction_sha256": "9d110623a16e318961cdbc4e2d759a4700da1e9f2ca7070ad35a38ca273a4b41",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 59.1,
+        "infer_fps": 35.7,
+        "avg_video_fps": 35.3,
+        "p50_video_fps": 35.3,
+        "p90_video_fps": 37.5
+      },
+      "timing": {
+        "prepare_sec": 2.3,
+        "engine_build_sec": 0.0,
+        "infer_sec": 59.1,
+        "total_sec": 61.4
+      }
+    },
+    "color_probe_1": {
+      "counts": [
+        85,
+        4,
+        7
+      ],
+      "points_of_75": 70.09537337662337,
+      "strict_points_of_75": 69.01095173483233,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          36,
+          3,
+          2
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.935064935064935,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [],
+      "lost": [],
+      "prediction_sha256": "9d110623a16e318961cdbc4e2d759a4700da1e9f2ca7070ad35a38ca273a4b41",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 61.6,
+        "infer_fps": 34.2,
+        "avg_video_fps": 33.8,
+        "p50_video_fps": 34.0,
+        "p90_video_fps": 35.8
+      },
+      "timing": {
+        "prepare_sec": 2.3,
+        "engine_build_sec": 0.0,
+        "infer_sec": 61.6,
+        "total_sec": 63.9
+      }
+    },
+    "short_1": {
+      "counts": [
+        86,
+        4,
+        6
+      ],
+      "points_of_75": 70.43669871794872,
+      "strict_points_of_75": 69.35227707615768,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          3,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9487179487179487,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [
+        [
+          "v000066",
+          83
+        ]
+      ],
+      "lost": [],
+      "prediction_sha256": "f1a56918abeb6e9db66202670628969f3df113741bacd096721887e1c9a853f6",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 59.8,
+        "infer_fps": 35.3,
+        "avg_video_fps": 34.8,
+        "p50_video_fps": 34.3,
+        "p90_video_fps": 36.8
+      },
+      "timing": {
+        "prepare_sec": 2.4,
+        "engine_build_sec": 0.0,
+        "infer_sec": 59.8,
+        "total_sec": 62.2
+      },
+      "exact_offline_match": true
+    },
+    "horizontal_1": {
+      "counts": [
+        85,
+        3,
+        7
+      ],
+      "points_of_75": 70.40296052631578,
+      "strict_points_of_75": 69.31853888452476,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          36,
+          2,
+          2
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9473684210526315,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [],
+      "lost": [],
+      "prediction_sha256": "34036f3aa49ba4bdbe46d412cdfcb862a18488cbfdb57fb30b34a06add98d775",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 59.8,
+        "infer_fps": 35.3,
+        "avg_video_fps": 34.8,
+        "p50_video_fps": 35.2,
+        "p90_video_fps": 36.6
+      },
+      "timing": {
+        "prepare_sec": 2.3,
+        "engine_build_sec": 0.0,
+        "infer_sec": 59.8,
+        "total_sec": 62.1
+      },
+      "exact_offline_match": true
+    },
+    "micro_1": {
+      "counts": [
+        85,
+        3,
+        7
+      ],
+      "points_of_75": 70.40296052631578,
+      "strict_points_of_75": 69.31853888452476,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          36,
+          2,
+          2
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9473684210526315,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [],
+      "lost": [],
+      "prediction_sha256": "c929931f4087b8ec1068a1a1c421d3e8a111ec9a91174c63936de28234b8002c",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 58.5,
+        "infer_fps": 36.1,
+        "avg_video_fps": 35.6,
+        "p50_video_fps": 35.7,
+        "p90_video_fps": 38.0
+      },
+      "timing": {
+        "prepare_sec": 2.4,
+        "engine_build_sec": 0.0,
+        "infer_sec": 58.5,
+        "total_sec": 60.8
+      },
+      "exact_offline_match": true
+    },
+    "color_1": {
+      "counts": [
+        85,
+        3,
+        7
+      ],
+      "points_of_75": 70.40296052631578,
+      "strict_points_of_75": 69.31853888452476,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          36,
+          2,
+          2
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9473684210526315,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [],
+      "lost": [],
+      "prediction_sha256": "65388f8c9c6b526f4cb7a76f11cfcb56ce69b1342af7bcba0d65532451139a5d",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 63.0,
+        "infer_fps": 33.5,
+        "avg_video_fps": 33.2,
+        "p50_video_fps": 32.9,
+        "p90_video_fps": 34.6
+      },
+      "timing": {
+        "prepare_sec": 2.4,
+        "engine_build_sec": 0.0,
+        "infer_sec": 63.0,
+        "total_sec": 65.4
+      },
+      "exact_offline_match": true
+    },
+    "combined_1": {
+      "counts": [
+        86,
+        2,
+        6
+      ],
+      "points_of_75": 71.06085526315789,
+      "strict_points_of_75": 69.97643362136685,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          1,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9736842105263158,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [
+        [
+          "v000066",
+          83
+        ]
+      ],
+      "lost": [],
+      "prediction_sha256": "56c115972820ffe0877ce08990f228d8a285ee6f8fef371b6bf539916dd2ec30",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 58.7,
+        "infer_fps": 35.9,
+        "avg_video_fps": 35.6,
+        "p50_video_fps": 35.4,
+        "p90_video_fps": 37.5
+      },
+      "timing": {
+        "prepare_sec": 2.3,
+        "engine_build_sec": 0.0,
+        "infer_sec": 58.7,
+        "total_sec": 61.0
+      },
+      "exact_offline_match": true
+    },
+    "combined_repeat_1": {
+      "counts": [
+        86,
+        2,
+        6
+      ],
+      "points_of_75": 71.06085526315789,
+      "strict_points_of_75": 69.97643362136685,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          1,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9736842105263158,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [
+        [
+          "v000066",
+          83
+        ]
+      ],
+      "lost": [],
+      "prediction_sha256": "56c115972820ffe0877ce08990f228d8a285ee6f8fef371b6bf539916dd2ec30",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 59.4,
+        "infer_fps": 35.5,
+        "avg_video_fps": 35.2,
+        "p50_video_fps": 35.0,
+        "p90_video_fps": 37.5
+      },
+      "timing": {
+        "prepare_sec": 2.3,
+        "engine_build_sec": 0.0,
+        "infer_sec": 59.4,
+        "total_sec": 61.8
+      },
+      "exact_offline_match": true
+    },
+    "combined_repeat_2": {
+      "counts": [
+        86,
+        2,
+        6
+      ],
+      "points_of_75": 71.06085526315789,
+      "strict_points_of_75": 69.97643362136685,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          1,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9736842105263158,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [
+        [
+          "v000066",
+          83
+        ]
+      ],
+      "lost": [],
+      "prediction_sha256": "56c115972820ffe0877ce08990f228d8a285ee6f8fef371b6bf539916dd2ec30",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 58.8,
+        "infer_fps": 35.9,
+        "avg_video_fps": 35.5,
+        "p50_video_fps": 35.2,
+        "p90_video_fps": 37.9
+      },
+      "timing": {
+        "prepare_sec": 2.4,
+        "engine_build_sec": 0.0,
+        "infer_sec": 58.8,
+        "total_sec": 61.1
+      },
+      "exact_offline_match": true
+    },
+    "final_1": {
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points_of_75": 71.38541666666667,
+      "strict_points_of_75": 70.30099502487562,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          0,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9866666666666667,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [
+        [
+          "v000066",
+          83
+        ]
+      ],
+      "lost": [],
+      "prediction_sha256": "15955e718251325e114415de87303423b65a5627f38edced32023b38a93e23a4",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 63.2,
+        "infer_fps": 33.3,
+        "avg_video_fps": 33.0,
+        "p50_video_fps": 33.4,
+        "p90_video_fps": 34.7
+      },
+      "timing": {
+        "prepare_sec": 2.4,
+        "engine_build_sec": 0.0,
+        "infer_sec": 63.2,
+        "total_sec": 65.6
+      },
+      "exact_offline_match": true
+    },
+    "final_2": {
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points_of_75": 71.38541666666667,
+      "strict_points_of_75": 70.30099502487562,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          0,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9866666666666667,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [
+        [
+          "v000066",
+          83
+        ]
+      ],
+      "lost": [],
+      "prediction_sha256": "15955e718251325e114415de87303423b65a5627f38edced32023b38a93e23a4",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 62.5,
+        "infer_fps": 33.7,
+        "avg_video_fps": 33.4,
+        "p50_video_fps": 33.6,
+        "p90_video_fps": 35.2
+      },
+      "timing": {
+        "prepare_sec": 2.4,
+        "engine_build_sec": 0.0,
+        "infer_sec": 62.5,
+        "total_sec": 64.9
+      },
+      "exact_offline_match": true
+    },
+    "final_3": {
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points_of_75": 71.38541666666667,
+      "strict_points_of_75": 70.30099502487562,
+      "per_angle": {
+        "0度": [
+          18,
+          1,
+          3
+        ],
+        "45度": [
+          37,
+          0,
+          1
+        ],
+        "90度": [
+          31,
+          0,
+          2
+        ]
+      },
+      "per_angle_f1": {
+        "0度": 0.9,
+        "45度": 0.9866666666666667,
+        "90度": 0.96875
+      },
+      "retained_baseline_tp": 85,
+      "unchanged_baseline_tp": 85,
+      "gained": [
+        [
+          "v000066",
+          83
+        ]
+      ],
+      "lost": [],
+      "prediction_sha256": "15955e718251325e114415de87303423b65a5627f38edced32023b38a93e23a4",
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 63.3,
+        "infer_fps": 33.3,
+        "avg_video_fps": 33.0,
+        "p50_video_fps": 33.2,
+        "p90_video_fps": 34.6
+      },
+      "timing": {
+        "prepare_sec": 2.3,
+        "engine_build_sec": 0.0,
+        "infer_sec": 63.3,
+        "total_sec": 65.6
+      },
+      "exact_offline_match": true
+    }
+  },
+  "final_fps_median": 33.3,
+  "combined_fps_median": 35.9,
+  "final_predictions_reproducible": true,
+  "estimate_4090": {
+    "measured_final_infer_sec": 63.2,
+    "profiled_gpu_execute_wait_sec": 6.348652255255729,
+    "residual_held_fixed_sec": 56.851347744744274,
+    "fps_by_assumed_model_gpu_speedup": {
+      "1": 33.370253164556964,
+      "1.5": 34.52634907118418,
+      "2": 35.134965822861076,
+      "3": 35.76542450352853
+    },
+    "limit_if_profiled_gpu_work_free": 37.09674587608999,
+    "caveat": "Conditional model: same CPU, storage, decoder, load and software; GPU timing from byte-identical frozen85 profiling. Residual includes GPU decoding and transfers, not only CPU. No 4090 measurements or guaranteed lower bound."
+  },
+  "combined_estimate_4090": {
+    "measured_infer_sec": 58.8,
+    "residual_held_fixed_sec": 52.45134774474427,
+    "fps_by_assumed_model_gpu_speedup": {
+      "1": 35.86734693877551,
+      "1.5": 37.20640902827274,
+      "2": 37.91414742837816,
+      "3": 38.649333055155836
+    },
+    "caveat": "Conditional model: same CPU, storage, decoder, load and software; GPU timing from byte-identical frozen85 profiling. Residual includes GPU decoding and transfers, not only CPU. No 4090 measurements or guaranteed lower bound."
+  }
+}

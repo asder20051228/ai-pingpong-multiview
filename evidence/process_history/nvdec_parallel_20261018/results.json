@@ -1,0 +1,532 @@
+{
+  "runs": [
+    {
+      "run": "branch_diagnostic",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 49.8,
+        "infer_fps": 42.4,
+        "avg_video_fps": 41.8,
+        "p50_video_fps": 42.2,
+        "p90_video_fps": 46.7
+      },
+      "timing": {
+        "prepare_sec": 0.9,
+        "engine_build_sec": 0.0,
+        "infer_sec": 49.8,
+        "total_sec": 50.7
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+        "gpu_execution": {
+          "visible_count": 1,
+          "used_count": 1,
+          "ball_device": 0,
+          "table_device": 0,
+          "cuda_visible_devices": null,
+          "branch_parallel": true,
+          "same_gpu_branch_diagnostic": true,
+          "devices": [
+            "NVIDIA GeForce RTX 4090"
+          ]
+        },
+        "pipeline": {
+          "max_pending_frames": 2,
+          "ordered": true,
+          "finish_joins": true
+        }
+      },
+      "decoder_util_max": 8.0,
+      "gpu_memory_max_mib": 1418.0
+    },
+    {
+      "run": "fallback_control",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 59.9,
+        "infer_fps": 35.2,
+        "avg_video_fps": 34.8,
+        "p50_video_fps": 35.8,
+        "p90_video_fps": 37.4
+      },
+      "timing": {
+        "prepare_sec": 2.1,
+        "engine_build_sec": 0.0,
+        "infer_sec": 59.9,
+        "total_sec": 62.0
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "4e1edcf8e5ccd561760083bb5d1d0f2e5ed13869b6df6d2740e39b9ea9a24591",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16"
+      },
+      "decoder_util_max": 0.0,
+      "gpu_memory_max_mib": 1194.0
+    },
+    {
+      "run": "nvdec_frozen_1",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 55.0,
+        "infer_fps": 38.4,
+        "avg_video_fps": 37.7,
+        "p50_video_fps": 37.2,
+        "p90_video_fps": 41.9
+      },
+      "timing": {
+        "prepare_sec": 1.9,
+        "engine_build_sec": 0.0,
+        "infer_sec": 55.0,
+        "total_sec": 56.8
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16"
+      },
+      "decoder_util_max": 20.0,
+      "gpu_memory_max_mib": 1418.0
+    },
+    {
+      "run": "nvdec_frozen_2",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 55.6,
+        "infer_fps": 37.9,
+        "avg_video_fps": 37.4,
+        "p50_video_fps": 37.5,
+        "p90_video_fps": 40.7
+      },
+      "timing": {
+        "prepare_sec": 2.2,
+        "engine_build_sec": 0.0,
+        "infer_sec": 55.6,
+        "total_sec": 57.8
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16"
+      },
+      "decoder_util_max": 20.0,
+      "gpu_memory_max_mib": 1418.0
+    },
+    {
+      "run": "nvdec_frozen_3",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 55.4,
+        "infer_fps": 38.1,
+        "avg_video_fps": 37.4,
+        "p50_video_fps": 37.3,
+        "p90_video_fps": 42.1
+      },
+      "timing": {
+        "prepare_sec": 2.0,
+        "engine_build_sec": 0.0,
+        "infer_sec": 55.4,
+        "total_sec": 57.3
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16"
+      },
+      "decoder_util_max": 20.0,
+      "gpu_memory_max_mib": 1418.0
+    },
+    {
+      "run": "package_cold",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 48.5,
+        "infer_fps": 43.5,
+        "avg_video_fps": 42.7,
+        "p50_video_fps": 41.5,
+        "p90_video_fps": 47.1
+      },
+      "timing": {
+        "prepare_sec": 289.0,
+        "engine_build_sec": 287.4,
+        "infer_sec": 48.5,
+        "total_sec": 337.5
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "9a5179c703c529a6b0d721eb02156125af37da3f0a5f1aec6d05863d51d7359c",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+        "gpu_execution": {
+          "visible_count": 1,
+          "used_count": 1,
+          "ball_device": 0,
+          "table_device": 0,
+          "cuda_visible_devices": null,
+          "branch_parallel": false,
+          "same_gpu_branch_diagnostic": false,
+          "devices": [
+            "NVIDIA GeForce RTX 4090"
+          ]
+        },
+        "pipeline": {
+          "max_pending_frames": 2,
+          "ordered": true,
+          "finish_joins": true
+        }
+      }
+    },
+    {
+      "run": "package_warm",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 46.0,
+        "infer_fps": 45.8,
+        "avg_video_fps": 45.0,
+        "p50_video_fps": 44.8,
+        "p90_video_fps": 49.8
+      },
+      "timing": {
+        "prepare_sec": 0.7,
+        "engine_build_sec": 0.0,
+        "infer_sec": 46.0,
+        "total_sec": 46.8
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+        "gpu_execution": {
+          "visible_count": 1,
+          "used_count": 1,
+          "ball_device": 0,
+          "table_device": 0,
+          "cuda_visible_devices": null,
+          "branch_parallel": false,
+          "same_gpu_branch_diagnostic": false,
+          "devices": [
+            "NVIDIA GeForce RTX 4090"
+          ]
+        },
+        "pipeline": {
+          "max_pending_frames": 2,
+          "ordered": true,
+          "finish_joins": true
+        }
+      }
+    },
+    {
+      "run": "pipeline_fallback",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 47.1,
+        "infer_fps": 44.7,
+        "avg_video_fps": 43.9,
+        "p50_video_fps": 43.3,
+        "p90_video_fps": 50.1
+      },
+      "timing": {
+        "prepare_sec": 0.8,
+        "engine_build_sec": 0.0,
+        "infer_sec": 47.1,
+        "total_sec": 48.0
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "4e1edcf8e5ccd561760083bb5d1d0f2e5ed13869b6df6d2740e39b9ea9a24591",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+        "gpu_execution": {
+          "visible_count": 1,
+          "used_count": 1,
+          "ball_device": 0,
+          "table_device": 0,
+          "cuda_visible_devices": null,
+          "branch_parallel": false,
+          "same_gpu_branch_diagnostic": false,
+          "devices": [
+            "NVIDIA GeForce RTX 4090"
+          ]
+        },
+        "pipeline": {
+          "max_pending_frames": 2,
+          "ordered": true,
+          "finish_joins": true
+        }
+      },
+      "decoder_util_max": 0.0,
+      "gpu_memory_max_mib": 1194.0
+    },
+    {
+      "run": "pipeline_nvdec_1",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 50.5,
+        "infer_fps": 41.7,
+        "avg_video_fps": 41.1,
+        "p50_video_fps": 40.6,
+        "p90_video_fps": 45.6
+      },
+      "timing": {
+        "prepare_sec": 0.8,
+        "engine_build_sec": 0.0,
+        "infer_sec": 50.5,
+        "total_sec": 51.3
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+        "gpu_execution": {
+          "visible_count": 1,
+          "used_count": 1,
+          "ball_device": 0,
+          "table_device": 0,
+          "cuda_visible_devices": null,
+          "branch_parallel": false,
+          "same_gpu_branch_diagnostic": false,
+          "devices": [
+            "NVIDIA GeForce RTX 4090"
+          ]
+        },
+        "pipeline": {
+          "max_pending_frames": 2,
+          "ordered": true,
+          "finish_joins": true
+        }
+      },
+      "decoder_util_max": 8.0,
+      "gpu_memory_max_mib": 1418.0
+    },
+    {
+      "run": "pipeline_nvdec_2",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 47.7,
+        "infer_fps": 44.2,
+        "avg_video_fps": 43.6,
+        "p50_video_fps": 43.6,
+        "p90_video_fps": 48.2
+      },
+      "timing": {
+        "prepare_sec": 0.8,
+        "engine_build_sec": 0.0,
+        "infer_sec": 47.7,
+        "total_sec": 48.5
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+        "gpu_execution": {
+          "visible_count": 1,
+          "used_count": 1,
+          "ball_device": 0,
+          "table_device": 0,
+          "cuda_visible_devices": null,
+          "branch_parallel": false,
+          "same_gpu_branch_diagnostic": false,
+          "devices": [
+            "NVIDIA GeForce RTX 4090"
+          ]
+        },
+        "pipeline": {
+          "max_pending_frames": 2,
+          "ordered": true,
+          "finish_joins": true
+        }
+      },
+      "decoder_util_max": 19.0,
+      "gpu_memory_max_mib": 1418.0
+    },
+    {
+      "run": "pipeline_nvdec_3",
+      "variant": "accuracy",
+      "counts": [
+        86,
+        1,
+        6
+      ],
+      "points": 71.38541666666667,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 46.0,
+        "infer_fps": 45.8,
+        "avg_video_fps": 44.9,
+        "p50_video_fps": 44.1,
+        "p90_video_fps": 49.9
+      },
+      "timing": {
+        "prepare_sec": 0.7,
+        "engine_build_sec": 0.0,
+        "infer_sec": 46.0,
+        "total_sec": 46.7
+      },
+      "lost_vs_4070": [],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+      "byte_identical_4070": false,
+      "lost_vs_frozen86": [],
+      "added_vs_frozen86": [],
+      "solution_info": {
+        "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16",
+        "gpu_execution": {
+          "visible_count": 1,
+          "used_count": 1,
+          "ball_device": 0,
+          "table_device": 0,
+          "cuda_visible_devices": null,
+          "branch_parallel": false,
+          "same_gpu_branch_diagnostic": false,
+          "devices": [
+            "NVIDIA GeForce RTX 4090"
+          ]
+        },
+        "pipeline": {
+          "max_pending_frames": 2,
+          "ordered": true,
+          "finish_joins": true
+        }
+      },
+      "decoder_util_max": 20.0,
+      "gpu_memory_max_mib": 1418.0
+    }
+  ],
+  "groups": {
+    "nvdec_frozen_": {
+      "fps": [
+        38.4,
+        37.9,
+        38.1
+      ],
+      "median": 38.1,
+      "prediction_sha256": [
+        "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb"
+      ]
+    },
+    "pipeline_nvdec_": {
+      "fps": [
+        41.7,
+        44.2,
+        45.8
+      ],
+      "median": 44.2,
+      "prediction_sha256": [
+        "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb"
+      ]
+    }
+  },
+  "frozen_files_checked": 997,
+  "frozen_files_changed": [],
+  "physical_gpus_tested": 1,
+  "dual_gpu_hardware_tested": false
+}

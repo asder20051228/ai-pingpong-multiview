@@ -1,0 +1,207 @@
+{
+ "status": "ok",
+ "started_at": "2026-10-18T18:39:00",
+ "videos": [
+  {
+   "video_id": "v000001",
+   "status": "ok",
+   "frames": 125,
+   "predictions": 5,
+   "sec": 3.39,
+   "fps": 36.9,
+   "decode_sec": 0.88,
+   "solution_sec": 2.17,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000010",
+   "status": "ok",
+   "frames": 116,
+   "predictions": 3,
+   "sec": 3.14,
+   "fps": 36.9,
+   "decode_sec": 0.85,
+   "solution_sec": 2.13,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000019",
+   "status": "ok",
+   "frames": 178,
+   "predictions": 5,
+   "sec": 4.4,
+   "fps": 40.5,
+   "decode_sec": 1.08,
+   "solution_sec": 3.14,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000028",
+   "status": "ok",
+   "frames": 101,
+   "predictions": 2,
+   "sec": 2.89,
+   "fps": 34.9,
+   "decode_sec": 0.78,
+   "solution_sec": 1.81,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000037",
+   "status": "ok",
+   "frames": 95,
+   "predictions": 4,
+   "sec": 2.64,
+   "fps": 36.0,
+   "decode_sec": 0.72,
+   "solution_sec": 1.65,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000038",
+   "status": "ok",
+   "frames": 197,
+   "predictions": 6,
+   "sec": 4.68,
+   "fps": 42.1,
+   "decode_sec": 1.02,
+   "solution_sec": 3.41,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000047",
+   "status": "ok",
+   "frames": 89,
+   "predictions": 3,
+   "sec": 2.39,
+   "fps": 37.2,
+   "decode_sec": 0.68,
+   "solution_sec": 1.54,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000057",
+   "status": "ok",
+   "frames": 131,
+   "predictions": 7,
+   "sec": 3.71,
+   "fps": 35.3,
+   "decode_sec": 0.93,
+   "solution_sec": 2.46,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000066",
+   "status": "ok",
+   "frames": 113,
+   "predictions": 7,
+   "sec": 3.04,
+   "fps": 37.2,
+   "decode_sec": 0.86,
+   "solution_sec": 2.08,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000075",
+   "status": "ok",
+   "frames": 68,
+   "predictions": 4,
+   "sec": 2.19,
+   "fps": 31.1,
+   "decode_sec": 0.66,
+   "solution_sec": 1.29,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000085",
+   "status": "ok",
+   "frames": 208,
+   "predictions": 6,
+   "sec": 4.97,
+   "fps": 41.9,
+   "decode_sec": 1.07,
+   "solution_sec": 3.64,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000094",
+   "status": "ok",
+   "frames": 98,
+   "predictions": 4,
+   "sec": 2.65,
+   "fps": 37.0,
+   "decode_sec": 0.7,
+   "solution_sec": 1.71,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000095",
+   "status": "ok",
+   "frames": 221,
+   "predictions": 16,
+   "sec": 5.69,
+   "fps": 38.8,
+   "decode_sec": 1.18,
+   "solution_sec": 4.28,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000106",
+   "status": "ok",
+   "frames": 191,
+   "predictions": 9,
+   "sec": 4.73,
+   "fps": 40.4,
+   "decode_sec": 1.02,
+   "solution_sec": 3.44,
+   "write_sec": 0.0
+  },
+  {
+   "video_id": "v000117",
+   "status": "ok",
+   "frames": 178,
+   "predictions": 9,
+   "sec": 4.47,
+   "fps": 39.8,
+   "decode_sec": 0.99,
+   "solution_sec": 3.2,
+   "write_sec": 0.0
+  }
+ ],
+ "totals": {
+  "videos": 15,
+  "ok": 15,
+  "failed": 0,
+  "skipped": 0,
+  "cpu_fallback": 0,
+  "frames": 2109,
+  "predictions": 90
+ },
+ "finished_at": "2026-10-18T18:39:57",
+ "solution_info": {
+  "backend": "fp16_ball_strict_fp32_recheck_0.795_0.805_table_fp16"
+ },
+ "timing": {
+  "prepare_sec": 1.9,
+  "engine_build_sec": 0.0,
+  "infer_sec": 55.0,
+  "total_sec": 56.8
+ },
+ "performance": {
+  "total_frames": 2109,
+  "infer_sec": 55.0,
+  "infer_fps": 38.4,
+  "avg_video_fps": 37.7,
+  "p50_video_fps": 37.2,
+  "p90_video_fps": 41.9
+ },
+ "validation": {
+  "n_lines": 90,
+  "n_errors": 0,
+  "n_warnings": 0,
+  "errors": [],
+  "near_dup_examples": [],
+  "videos_with_predictions": 15
+ },
+ "output_size_gb": 0.013
+}

@@ -1,0 +1,14 @@
+{
+  "table": {
+    "calls": 2109,
+    "upload_allocate_sec": 0.5149688147939742,
+    "execute_wait_sec": 0.6007988885976374,
+    "download_sec": 0.1306148092262447
+  },
+  "ball": {
+    "calls": 2109,
+    "upload_allocate_sec": 1.3732134904712439,
+    "execute_wait_sec": 5.7478533666580915,
+    "download_sec": 0.81050830706954
+  }
+}

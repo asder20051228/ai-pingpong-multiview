@@ -1,0 +1,9 @@
+{
+  "video_id": "v000001",
+  "bytes": 777600000,
+  "frames": 125,
+  "official_gpu_stderr": "",
+  "gpu_rgb_sha256": "c159c97047994b7794372298cf1d5874dd1391fb3cd2063ef1365fdce65890cc",
+  "cpu_nv12_rgb_sha256": "c159c97047994b7794372298cf1d5874dd1391fb3cd2063ef1365fdce65890cc",
+  "same_rgb": true
+}

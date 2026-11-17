@@ -1,0 +1,28 @@
+{
+  "run": "pipeline_nvdec_1",
+  "variant": "accuracy",
+  "counts": [
+    86,
+    1,
+    6
+  ],
+  "points": 71.38541666666667,
+  "performance": {
+    "total_frames": 2109,
+    "infer_sec": 50.5,
+    "infer_fps": 41.7,
+    "avg_video_fps": 41.1,
+    "p50_video_fps": 40.6,
+    "p90_video_fps": 45.6
+  },
+  "timing": {
+    "prepare_sec": 0.8,
+    "engine_build_sec": 0.0,
+    "infer_sec": 50.5,
+    "total_sec": 51.3
+  },
+  "lost_vs_4070": [],
+  "gained_vs_4070": [],
+  "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+  "byte_identical_4070": false
+}

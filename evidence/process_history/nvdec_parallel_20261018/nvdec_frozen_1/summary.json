@@ -1,0 +1,28 @@
+{
+  "run": "nvdec_frozen_1",
+  "variant": "accuracy",
+  "counts": [
+    86,
+    1,
+    6
+  ],
+  "points": 71.38541666666667,
+  "performance": {
+    "total_frames": 2109,
+    "infer_sec": 55.0,
+    "infer_fps": 38.4,
+    "avg_video_fps": 37.7,
+    "p50_video_fps": 37.2,
+    "p90_video_fps": 41.9
+  },
+  "timing": {
+    "prepare_sec": 1.9,
+    "engine_build_sec": 0.0,
+    "infer_sec": 55.0,
+    "total_sec": 56.8
+  },
+  "lost_vs_4070": [],
+  "gained_vs_4070": [],
+  "prediction_sha256": "7be60833053d1bb69765186eb060b350e69d75907e408440a2ad0db46a022afb",
+  "byte_identical_4070": false
+}

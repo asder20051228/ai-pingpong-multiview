@@ -1,0 +1,28 @@
+{
+  "run": "package_cold",
+  "variant": "accuracy",
+  "counts": [
+    86,
+    1,
+    6
+  ],
+  "points": 71.38541666666667,
+  "performance": {
+    "total_frames": 2109,
+    "infer_sec": 48.5,
+    "infer_fps": 43.5,
+    "avg_video_fps": 42.7,
+    "p50_video_fps": 41.5,
+    "p90_video_fps": 47.1
+  },
+  "timing": {
+    "prepare_sec": 289.0,
+    "engine_build_sec": 287.4,
+    "infer_sec": 48.5,
+    "total_sec": 337.5
+  },
+  "lost_vs_4070": [],
+  "gained_vs_4070": [],
+  "prediction_sha256": "9a5179c703c529a6b0d721eb02156125af37da3f0a5f1aec6d05863d51d7359c",
+  "byte_identical_4070": false
+}

@@ -1,0 +1,28 @@
+{
+  "run": "strict_rescue",
+  "variant": "accuracy",
+  "counts": [
+    86,
+    1,
+    6
+  ],
+  "points": 71.38541666666667,
+  "performance": {
+    "total_frames": 2109,
+    "infer_sec": 59.5,
+    "infer_fps": 35.5,
+    "avg_video_fps": 35.1,
+    "p50_video_fps": 35.2,
+    "p90_video_fps": 37.0
+  },
+  "timing": {
+    "prepare_sec": 1.9,
+    "engine_build_sec": 0.0,
+    "infer_sec": 59.5,
+    "total_sec": 61.4
+  },
+  "lost_vs_4070": [],
+  "gained_vs_4070": [],
+  "prediction_sha256": "d985c6decffd8c77d8487f562a42eec0330334e7ca836ea98670e80342493366",
+  "byte_identical_4070": false
+}

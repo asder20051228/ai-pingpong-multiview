@@ -1,10 +1,59 @@
 {
   "format": "DOCX + PDF + Markdown",
-  "pages": 8,
+  "title": "乒乓球多视角落点检测技术与作业过程报告",
+  "reviewed_on": "2026-11-17",
+  "pages": 20,
   "all_pages_rendered_and_visually_reviewed": true,
+  "render_method": "Microsoft Word PDF export followed by Poppler page rendering",
+  "final_revision_changed_pages_reinspected": [
+    1,
+    3,
+    6,
+    11,
+    14,
+    18
+  ],
+  "unchanged_page_images_verified": 14,
   "no_clipped_content": true,
   "github_links_present": true,
   "github_links_on_first_page": true,
-  "reviewed_after_front_page_update": "2026-11-16",
-  "verified_metrics": true
+  "evidence_references": 23,
+  "all_evidence_reference_destinations_exist": true,
+  "pdf_evidence_hyperlinks_verified": true,
+  "figures": 3,
+  "historical_source_files_verified_against_originals": 73,
+  "verified_metrics": true,
+  "covers": [
+    "initial results",
+    "training and model selection",
+    "accuracy iterations and failed controls",
+    "cache versus steady throughput",
+    "NVDEC fallback diagnosis",
+    "ordered pipeline",
+    "precision and speed tradeoffs",
+    "repeat runs",
+    "Docker and GitHub reproduction"
+  ],
+  "limitations": [
+    "Public validation data was used for tuning",
+    "True two-GPU performance not measured",
+    "No new GPU benchmark was run for this documentation revision"
+  ],
+  "report_files": [
+    {
+      "path": "docs/technical-report.docx",
+      "bytes": 231673,
+      "sha256": "00f9c2bb8d4a163c7e30034e7b8bc633b6e32023ace2b32036ca28e786a96e0d"
+    },
+    {
+      "path": "docs/technical-report.pdf",
+      "bytes": 890853,
+      "sha256": "d9456c3167f4956e06cdb11afc21af8ed3940019579dce7247672ae0b96e5be3"
+    },
+    {
+      "path": "docs/technical-report.md",
+      "bytes": 43583,
+      "sha256": "132144ce8bbeb9cf957683ff1e86dc4c49f785a593a1b99a044ede0274d97651"
+    }
+  ]
 }

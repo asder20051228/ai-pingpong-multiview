@@ -1,0 +1,155 @@
+{
+  "checkpoint_epoch": 5,
+  "split_groups": [
+    "00",
+    "05",
+    "10",
+    "15",
+    "20"
+  ],
+  "methods": {
+    "official_peak": "Argmax of official middle-frame heatmap, no threshold",
+    "official_reference": "Official >0.7 mask and weighted centroid",
+    "ours_peak": "Argmax of trained model center-frame heatmap, no threshold",
+    "ours_at_07": "Trained model argmax if peak >=0.7; threshold is not calibrated"
+  },
+  "by_fps": {
+    "all": {
+      "official_peak_error": {
+        "frames": 4100,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 2.56,
+        "hit_10px": 0.9468,
+        "hit_25px": 0.9878,
+        "hit_50px": 0.9939
+      },
+      "official_reference_error": {
+        "frames": 4100,
+        "detection_fraction": 0.9459,
+        "median_error_px_detected": 1.49,
+        "hit_10px": 0.9351,
+        "hit_25px": 0.9434,
+        "hit_50px": 0.9437
+      },
+      "ours_peak_error": {
+        "frames": 4100,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 4.04,
+        "hit_10px": 0.7412,
+        "hit_25px": 0.7546,
+        "hit_50px": 0.7649
+      },
+      "ours_at_07_error": {
+        "frames": 4100,
+        "detection_fraction": 0.9824,
+        "median_error_px_detected": 4.0,
+        "hit_10px": 0.7371,
+        "hit_25px": 0.7493,
+        "hit_50px": 0.759
+      }
+    },
+    "near_25fps": {
+      "official_peak_error": {
+        "frames": 1948,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 2.57,
+        "hit_10px": 0.9641,
+        "hit_25px": 0.9949,
+        "hit_50px": 0.9964
+      },
+      "official_reference_error": {
+        "frames": 1948,
+        "detection_fraction": 0.9661,
+        "median_error_px_detected": 1.42,
+        "hit_10px": 0.9605,
+        "hit_25px": 0.9651,
+        "hit_50px": 0.9651
+      },
+      "ours_peak_error": {
+        "frames": 1948,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 4.56,
+        "hit_10px": 0.6751,
+        "hit_25px": 0.6884,
+        "hit_50px": 0.7007
+      },
+      "ours_at_07_error": {
+        "frames": 1948,
+        "detection_fraction": 0.9861,
+        "median_error_px_detected": 4.56,
+        "hit_10px": 0.6689,
+        "hit_25px": 0.6817,
+        "hit_50px": 0.6935
+      }
+    },
+    "near_30fps": {
+      "official_peak_error": {
+        "frames": 673,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 2.23,
+        "hit_10px": 0.9866,
+        "hit_25px": 0.9955,
+        "hit_50px": 0.997
+      },
+      "official_reference_error": {
+        "frames": 673,
+        "detection_fraction": 0.9168,
+        "median_error_px_detected": 1.2,
+        "hit_10px": 0.9153,
+        "hit_25px": 0.9153,
+        "hit_50px": 0.9153
+      },
+      "ours_peak_error": {
+        "frames": 673,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 3.8,
+        "hit_10px": 0.7741,
+        "hit_25px": 0.792,
+        "hit_50px": 0.8039
+      },
+      "ours_at_07_error": {
+        "frames": 673,
+        "detection_fraction": 0.9658,
+        "median_error_px_detected": 3.75,
+        "hit_10px": 0.7712,
+        "hit_25px": 0.7845,
+        "hit_50px": 0.7949
+      }
+    },
+    "near_60fps": {
+      "official_peak_error": {
+        "frames": 1479,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 2.81,
+        "hit_10px": 0.906,
+        "hit_25px": 0.975,
+        "hit_50px": 0.9892
+      },
+      "official_reference_error": {
+        "frames": 1479,
+        "detection_fraction": 0.9324,
+        "median_error_px_detected": 1.79,
+        "hit_10px": 0.9108,
+        "hit_25px": 0.9277,
+        "hit_50px": 0.9283
+      },
+      "ours_peak_error": {
+        "frames": 1479,
+        "detection_fraction": 1.0,
+        "median_error_px_detected": 3.64,
+        "hit_10px": 0.8134,
+        "hit_25px": 0.8249,
+        "hit_50px": 0.8316
+      },
+      "ours_at_07_error": {
+        "frames": 1479,
+        "detection_fraction": 0.9851,
+        "median_error_px_detected": 3.6,
+        "hit_10px": 0.8114,
+        "hit_25px": 0.8222,
+        "hit_50px": 0.8289
+      }
+    }
+  },
+  "elapsed_sec": 180.3
+}

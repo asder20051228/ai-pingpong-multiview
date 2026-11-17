@@ -1,0 +1,46 @@
+[
+  {
+    "rule": "official_rule",
+    "policy": "strict",
+    "by_angle": {
+      "0度": 0.4167,
+      "45度": 0.6588,
+      "90度": 0.6866
+    },
+    "macro_f1": 0.5874,
+    "accuracy_points_of_75": 44.05
+  },
+  {
+    "rule": "official_rule",
+    "policy": "lenient",
+    "by_angle": {
+      "0度": 0.4348,
+      "45度": 0.6667,
+      "90度": 0.7077
+    },
+    "macro_f1": 0.6031,
+    "accuracy_points_of_75": 45.23
+  },
+  {
+    "rule": "deployed_rule",
+    "policy": "strict",
+    "by_angle": {
+      "0度": 0.4615,
+      "45度": 0.6197,
+      "90度": 0.8
+    },
+    "macro_f1": 0.6271,
+    "accuracy_points_of_75": 47.03
+  },
+  {
+    "rule": "deployed_rule",
+    "policy": "lenient",
+    "by_angle": {
+      "0度": 0.4615,
+      "45度": 0.6197,
+      "90度": 0.8358
+    },
+    "macro_f1": 0.639,
+    "accuracy_points_of_75": 47.92
+  }
+]

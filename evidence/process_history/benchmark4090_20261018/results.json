@@ -1,0 +1,407 @@
+{
+  "summaries": {
+    "cold_build": {
+      "run": "cold_build",
+      "variant": "fast",
+      "counts": [
+        84,
+        3,
+        8
+      ],
+      "points": 69.69783232118758,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 57.5,
+        "infer_fps": 36.7,
+        "avg_video_fps": 36.2,
+        "p50_video_fps": 36.2,
+        "p90_video_fps": 38.9
+      },
+      "timing": {
+        "prepare_sec": 244.0,
+        "engine_build_sec": 241.6,
+        "infer_sec": 57.5,
+        "total_sec": 301.5
+      },
+      "lost_vs_4070": [
+        [
+          "v000001",
+          45
+        ],
+        [
+          "v000066",
+          2
+        ]
+      ],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7dde92034deb0f77159265d590769a0bbe66b2c11f21fc7db313cd25380381f2",
+      "byte_identical_4070": false
+    },
+    "fast_1": {
+      "run": "fast_1",
+      "variant": "fast",
+      "counts": [
+        84,
+        3,
+        8
+      ],
+      "points": 69.69783232118758,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 55.3,
+        "infer_fps": 38.1,
+        "avg_video_fps": 37.6,
+        "p50_video_fps": 38.2,
+        "p90_video_fps": 40.7
+      },
+      "timing": {
+        "prepare_sec": 1.9,
+        "engine_build_sec": 0.0,
+        "infer_sec": 55.3,
+        "total_sec": 57.2
+      },
+      "lost_vs_4070": [
+        [
+          "v000001",
+          45
+        ],
+        [
+          "v000066",
+          2
+        ]
+      ],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7dde92034deb0f77159265d590769a0bbe66b2c11f21fc7db313cd25380381f2",
+      "byte_identical_4070": false
+    },
+    "accuracy_1": {
+      "run": "accuracy_1",
+      "variant": "accuracy",
+      "counts": [
+        84,
+        2,
+        8
+      ],
+      "points": 70.0136217948718,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 57.9,
+        "infer_fps": 36.5,
+        "avg_video_fps": 36.0,
+        "p50_video_fps": 35.7,
+        "p90_video_fps": 38.5
+      },
+      "timing": {
+        "prepare_sec": 1.8,
+        "engine_build_sec": 0.0,
+        "infer_sec": 57.9,
+        "total_sec": 59.7
+      },
+      "lost_vs_4070": [
+        [
+          "v000001",
+          45
+        ],
+        [
+          "v000066",
+          2
+        ]
+      ],
+      "gained_vs_4070": [],
+      "prediction_sha256": "1538300e1f86cc175d08bb5ea90111158c60f896d240fb430576a8f2c78c7f1c",
+      "byte_identical_4070": false
+    },
+    "fast_2": {
+      "run": "fast_2",
+      "variant": "fast",
+      "counts": [
+        84,
+        3,
+        8
+      ],
+      "points": 69.69783232118758,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 54.9,
+        "infer_fps": 38.4,
+        "avg_video_fps": 37.8,
+        "p50_video_fps": 38.5,
+        "p90_video_fps": 41.4
+      },
+      "timing": {
+        "prepare_sec": 1.9,
+        "engine_build_sec": 0.0,
+        "infer_sec": 54.9,
+        "total_sec": 56.8
+      },
+      "lost_vs_4070": [
+        [
+          "v000001",
+          45
+        ],
+        [
+          "v000066",
+          2
+        ]
+      ],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7dde92034deb0f77159265d590769a0bbe66b2c11f21fc7db313cd25380381f2",
+      "byte_identical_4070": false
+    },
+    "accuracy_2": {
+      "run": "accuracy_2",
+      "variant": "accuracy",
+      "counts": [
+        84,
+        2,
+        8
+      ],
+      "points": 70.0136217948718,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 57.7,
+        "infer_fps": 36.5,
+        "avg_video_fps": 36.1,
+        "p50_video_fps": 35.8,
+        "p90_video_fps": 38.3
+      },
+      "timing": {
+        "prepare_sec": 1.9,
+        "engine_build_sec": 0.0,
+        "infer_sec": 57.7,
+        "total_sec": 59.6
+      },
+      "lost_vs_4070": [
+        [
+          "v000001",
+          45
+        ],
+        [
+          "v000066",
+          2
+        ]
+      ],
+      "gained_vs_4070": [],
+      "prediction_sha256": "1538300e1f86cc175d08bb5ea90111158c60f896d240fb430576a8f2c78c7f1c",
+      "byte_identical_4070": false
+    },
+    "fast_3": {
+      "run": "fast_3",
+      "variant": "fast",
+      "counts": [
+        84,
+        3,
+        8
+      ],
+      "points": 69.69783232118758,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 54.5,
+        "infer_fps": 38.7,
+        "avg_video_fps": 38.0,
+        "p50_video_fps": 38.0,
+        "p90_video_fps": 41.7
+      },
+      "timing": {
+        "prepare_sec": 1.8,
+        "engine_build_sec": 0.0,
+        "infer_sec": 54.5,
+        "total_sec": 56.4
+      },
+      "lost_vs_4070": [
+        [
+          "v000001",
+          45
+        ],
+        [
+          "v000066",
+          2
+        ]
+      ],
+      "gained_vs_4070": [],
+      "prediction_sha256": "7dde92034deb0f77159265d590769a0bbe66b2c11f21fc7db313cd25380381f2",
+      "byte_identical_4070": false
+    },
+    "accuracy_3": {
+      "run": "accuracy_3",
+      "variant": "accuracy",
+      "counts": [
+        84,
+        2,
+        8
+      ],
+      "points": 70.0136217948718,
+      "performance": {
+        "total_frames": 2109,
+        "infer_sec": 60.7,
+        "infer_fps": 34.7,
+        "avg_video_fps": 34.3,
+        "p50_video_fps": 34.4,
+        "p90_video_fps": 36.3
+      },
+      "timing": {
+        "prepare_sec": 1.9,
+        "engine_build_sec": 0.0,
+        "infer_sec": 60.7,
+        "total_sec": 62.6
+      },
+      "lost_vs_4070": [
+        [
+          "v000001",
+          45
+        ],
+        [
+          "v000066",
+          2
+        ]
+      ],
+      "gained_vs_4070": [],
+      "prediction_sha256": "1538300e1f86cc175d08bb5ea90111158c60f896d240fb430576a8f2c78c7f1c",
+      "byte_identical_4070": false
+    }
+  },
+  "results": {
+    "fast": {
+      "fps": [
+        38.1,
+        38.4,
+        38.7
+      ],
+      "median_fps": 38.4,
+      "min_fps": 38.1,
+      "max_fps": 38.7,
+      "counts": [
+        [
+          84,
+          3,
+          8
+        ],
+        [
+          84,
+          3,
+          8
+        ],
+        [
+          84,
+          3,
+          8
+        ]
+      ],
+      "points": [
+        69.69783232118758,
+        69.69783232118758,
+        69.69783232118758
+      ],
+      "repeated_predictions_identical": true,
+      "lost_vs_4070": [
+        [
+          [
+            "v000001",
+            45
+          ],
+          [
+            "v000066",
+            2
+          ]
+        ],
+        [
+          [
+            "v000001",
+            45
+          ],
+          [
+            "v000066",
+            2
+          ]
+        ],
+        [
+          [
+            "v000001",
+            45
+          ],
+          [
+            "v000066",
+            2
+          ]
+        ]
+      ],
+      "gained_vs_4070": [
+        [],
+        [],
+        []
+      ],
+      "byte_identical_4070": false
+    },
+    "accuracy": {
+      "fps": [
+        36.5,
+        36.5,
+        34.7
+      ],
+      "median_fps": 36.5,
+      "min_fps": 34.7,
+      "max_fps": 36.5,
+      "counts": [
+        [
+          84,
+          2,
+          8
+        ],
+        [
+          84,
+          2,
+          8
+        ],
+        [
+          84,
+          2,
+          8
+        ]
+      ],
+      "points": [
+        70.0136217948718,
+        70.0136217948718,
+        70.0136217948718
+      ],
+      "repeated_predictions_identical": true,
+      "lost_vs_4070": [
+        [
+          [
+            "v000001",
+            45
+          ],
+          [
+            "v000066",
+            2
+          ]
+        ],
+        [
+          [
+            "v000001",
+            45
+          ],
+          [
+            "v000066",
+            2
+          ]
+        ],
+        [
+          [
+            "v000001",
+            45
+          ],
+          [
+            "v000066",
+            2
+          ]
+        ]
+      ],
+      "gained_vs_4070": [
+        [],
+        [],
+        []
+      ],
+      "byte_identical_4070": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cuInit": 0,
+  "cuDeviceGetCount": 0,
+  "devices": 1,
+  "cuCtxCreate": 0,
+  "cuvidGetDecoderCaps": 0,
+  "supported": 1,
+  "num_nvdecs": 1,
+  "max_width": 4096,
+  "caps_size": 88
+}

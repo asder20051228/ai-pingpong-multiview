@@ -6,9 +6,11 @@
 
 ## 成果与报告
 
-- 技术报告：[在线阅读](docs/technical-report.md) · [PDF](docs/technical-report.pdf) · [可编辑 Word](docs/technical-report.docx)
+- 技术与作业过程报告（20 页）：[在线阅读](docs/technical-report.md) · [PDF](docs/technical-report.pdf) · [可编辑 Word](docs/technical-report.docx)
 - [完整 Docker 镜像及公开验证视频](https://github.com/asder20051228/ai-pingpong-multiview/releases/tag/v2026.11.16)
 - [本次容器验证记录](validation/container_validation_summary.json) · [历史实验依据](evidence/)
+
+完整报告包含初始结果、模型训练与选择、逐轮精度改进和失败尝试，重点解释引擎缓存、解码回退排查、有序流水线及速度复测。新增 [过程证据索引](evidence/process_history/index.json) 保存 73 个历史文件的校验值；文中 23 项证据链接可直接追溯原始记录。
 
 | 验证项目 | 结果 |
 | --- | --- |
